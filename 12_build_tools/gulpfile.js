@@ -58,7 +58,7 @@ gulp.task('compile-ts', ['reinstall-tsd'], function () {
                        .pipe(tsc({
                            target: 'ES5',
                            declarationFiles: false,
-                           noExternalResolve: true
+                           noExternalResolve: false
                        }));
 
         tsResult.dts.pipe(gulp.dest(config.tsOutputPath));
