@@ -1,0 +1,23 @@
+{
+  "name": "jug",
+  "version": "0.0.0",
+  "repository": "https://github.com/rootis/",
+  "readme": "README.md",
+  "description": "Kaunas JUG Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rutenis Turcinas",
+  "license": "ISC",
+  "devDependencies": { 
+	"del": "^1.1.1",
+    "gulp": "^3.8.11", 
+    "gulp-debug": "^2.0.1", 
+    "gulp-inject": "^1.2.0", 
+    "gulp-sourcemaps": "^1.5.1", 
+    "gulp-tsd": "^0.0.4",
+	"gulp-tslint": "^1.4.4",
+    "gulp-typescript": "^2.5.0"
+  }
+}
