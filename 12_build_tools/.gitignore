@@ -2,6 +2,7 @@ src/*.js
 *.js.map
 .idea/
 *.iml
+npm_debug.log
 node/
 node_modules/
 target/
