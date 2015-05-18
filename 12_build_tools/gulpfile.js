@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     inject = require('gulp-inject'),
     tsc = require('gulp-typescript'),
     tsd = require('gulp-tsd'),
-	tslint = require('gulp-tslint'),
+    tslint = require('gulp-tslint'),
     sourcemaps = require('gulp-sourcemaps'),
     del = require('del'),
     Config = require('./gulpfile.config');
@@ -51,7 +51,7 @@ gulp.task('compile-ts', ['reinstall-tsd'], function () {
     var sourceTsFiles = [config.allTypeScript,                //path to typescript files
                          //config.libraryTypeScriptDefinitions//reference to library .d.ts files
                          config.appTypeScriptReferences	  	  //reference to tsd.d.ts files
-						 ];     
+                        ];
 
     var tsResult = gulp.src(sourceTsFiles)
                        .pipe(sourcemaps.init())
