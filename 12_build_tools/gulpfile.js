@@ -1,6 +1,7 @@
 'use strict';
 
-var gulp = require('gulp'),
+var argv = require('yargs').argv,
+	gulp = require('gulp'),
     debug = require('gulp-debug'),
     inject = require('gulp-inject'),
     tsc = require('gulp-typescript'),
