@@ -1,5 +1,7 @@
 src/*.js
 *.js.map
+.idea/
+*.iml
 node/
 node_modules/
 target/
