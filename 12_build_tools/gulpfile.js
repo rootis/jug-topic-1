@@ -59,7 +59,7 @@ gulp.task('compile-ts', ['reinstall-tsd'], function () {
                            target: 'ES5',
                            declarationFiles: false,
                            noExternalResolve: false
-                       }));
+                       })).on('error', function(error){throw Error(error.name);});
 
         tsResult.dts.pipe(gulp.dest(config.tsOutputPath));
         return tsResult.js
